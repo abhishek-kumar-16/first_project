@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek's fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/pexels-victor-freitas-685530.jpg');
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 25px;
+
+    }
+
+
+    .left div {
+        line-height: 17px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 30px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 25px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 34px 5px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: chocolate;
+
+    }
+
+    .btn {
+        margin: 0px 34px;
+        background-color: grey;
+        color: black;
+        padding: 4px 3px;
+        border: 5px solid green;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(16, 18, 77);
+        color: white;
+        ;
+    }
+
+    .container {
+        border: 2px solid;
+        width: 33%;
+        margin: 128px 122px;
+        padding: 45px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 369px;
+        margin: 16px 54px;
+        padding: 9px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container button {
+        text-align: center;
+        width: 79%;
+        margin: 18px;
+        /* display: block;
+        width: 20%;
+      margin: auto; */
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <center> <img src="image/logo.jpg" alt="image" width="100"></center>
+            <div>Abhishek Kumar Fitness Center </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Us Now </h1>
+        <form action="nothing.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+
+        </form>
+    </div>
+</body>
+
+</html>
